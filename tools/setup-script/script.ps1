@@ -136,13 +136,24 @@ InfoLog "Windows Updates paused for 7 days"
 ## Step 3: Install software
 NextStep
 
-winget upgrade --accept-source-agreements | Out-Null
-winget install --id=GlavSoft.TightVNC -e
-winget install --id=7zip.7zip -e
-winget install --id=Google.Chrome -e
-winget install --id=Discord.Discord -e
-winget install --id=Valve.Steam -e
+Install-Module -Name Microsoft.WinGet.Client -Force | Out-Null
+InfoLog "Installing VNC..."
+$vnc = Install-WinGetPackage -Id GlavSoft.TightVNC
+DebugLog $vnc
+InfoLog "Installing 7-Zip..."
+$7zip = Install-WinGetPackage -Id 7zip.7zi
+DebugLog $7zip
+InfoLog "Installing Chrome..."
+$chrome = Install-WinGetPackage -Id Google.Chrome
+DebugLog $chrome
+InfoLog "Installing Discord..."
+$discord = Install-WinGetPackage -Id Discord.Discord
+DebugLog $discord
+InfoLog "Installing Steam..."
+$steam = Install-WinGetPackage -Id Valve.Steam
+DebugLog $steam
 InfoLog "Software installed"
+
 
 ## Step 4: Reboot
 NextStep
