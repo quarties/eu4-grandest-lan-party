@@ -28,3 +28,8 @@ TODO: Explain DHCP and TODO sheets
 6. Click `Deploy` button to confirm the deployment.
 7. Copy the `Web app URL` and save it for later use in [`setup-script`](../setup-script/README.md).
 
+
+## Author's note
+
+This project was created as part of a larger project to automate the setup of the [EU4 Grandest LAN party](https://github.com/quarties/eu4-grandest-lan-party).
+Feel free to open an issue if you have any questions.

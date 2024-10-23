@@ -59,7 +59,8 @@ function NextStep
 }
 
 ### Set execution policy and install NuGet
-Set-ExecutionPolicy Unrestricted | Out-Null
+InfoLog "Starting setup script..."
+Set-ExecutionPolicy RemoteSigned -Scope Process | Out-Null
 Install-PackageProvider -Name NuGet -Force | Out-Null
 
 
@@ -129,7 +130,6 @@ Set-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings' -Nam
 Set-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings' -Name 'PauseFeatureUpdatesEndTime' -Value $pause
 Set-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings' -Name 'PauseQualityUpdatesStartTime' -Value $pause_start
 Set-itemproperty -Path 'HKLM:\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings' -Name 'PauseQualityUpdatesEndTime' -Value $pause
-Set-itemproperty -Path 'HKLM:\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings' -Name 'PauseUpdatesStartTime' -Value $pause_start
 InfoLog "Windows Updates paused for 7 days"
 
 
@@ -147,7 +147,6 @@ InfoLog "Software installed"
 ## Step 4: Reboot
 NextStep
 
-Set-ExecutionPolicy Default | Out-Null
 InfoLog "Press enter to reboot, or close this window to reboot manually later"
 Read-Host
 Restart-Computer

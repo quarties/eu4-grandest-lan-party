@@ -8,7 +8,7 @@ The script is designed to be run on a fresh Windows installation via a `.exe` fi
 #### Features
 1. Step 0: Initial setup
    - Define variables, constants, and helper functions
-   - Set execution policy to `Unrestricted`
+   - Set execution policy to `RemoteSigned` for the current process
    - Install [NuGet](https://www.nuget.org/)
 2. Step 1: Rename the PC and save the MAC address in Google Sheet
    - Wait for the user to input the PC ID 
@@ -25,7 +25,6 @@ The script is designed to be run on a fresh Windows installation via a `.exe` fi
    - [Discord](https://discord.com/)
    - [Steam](https://store.steampowered.com/)
 5. Step 4: Reboot
-   - Set execution policy to `Default`
    - Wait for user input to reboot the PC
 
 ## Usage
@@ -63,7 +62,7 @@ This script was designed to be run on a fresh Windows installation via `.exe` fi
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](../../LICENSE) file for details.
 
 ## Author's note
 
