@@ -14,7 +14,7 @@ Google Apps Script to automate the setup of a [EU4 Grandest LAN](https://www.par
 
 You can find more information about Google Apps Scripts in the [official documentation](https://developers.google.com/apps-script/guides/web).
 
-You can find the example Google Sheet [here](https://docs.google.com/spreadsheets/d/1OJMf61VobK8V_CqIfnPudNxqYjOYZCTCWobqUdf9s7k/edit?usp=sharing).
+You can find the example Google Sheet [here](https://docs.google.com/spreadsheets/d/1OJMf61VobK8V_CqIfnPudNxqYjOYZCTCWobqUdf9s7k/edit?usp=sharinggid=821057122#gid=821057122).
 
 TODO: Explain DHCP and TODO sheets
 
