@@ -1,6 +1,6 @@
 # eu4-grandest-lan-party
 
-[![MIT license](https://img.shields.io/github/license/quarties/lanparty-powershell-setup.svg)](../../LICENSE)
+[![MIT license](https://img.shields.io/github/license/quarties/lanparty-powershell-setup.svg)](./LICENSE)
 
 The [EU4 Grandest LAN](https://www.paradoxinteractive.com/games/europa-universalis-iv/grandest-lan) party boilerplate.
 
