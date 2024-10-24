@@ -5,7 +5,7 @@
 PowerShell script to automate the setup of a Windows machine for the [EU4 Grandest LAN](https://www.paradoxinteractive.com/games/europa-universalis-iv/grandest-lan) party.
 The script is designed to be run on a fresh Windows installation via a `.exe` file.
 
-[![Script output](./script-output.png)]
+![Script output](./script-output.png)
 
 #### Features
 1. Step 0: Initial setup
