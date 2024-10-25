@@ -1,6 +1,6 @@
 # google-sheet-apps-script
 
-[![MIT license](https://img.shields.io/github/license/quarties/lanparty-powershell-setup.svg)](../../LICENSE)
+[![MIT license](https://img.shields.io/github/license/quarties/eu4-grandest-lan-party.svg)](../../LICENSE)
 
 Google Apps Script to automate the setup of a [EU4 Grandest LAN](https://www.paradoxinteractive.com/games/europa-universalis-iv/grandest-lan) party.
 
